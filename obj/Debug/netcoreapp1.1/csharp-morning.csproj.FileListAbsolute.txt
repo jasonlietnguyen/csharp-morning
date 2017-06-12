@@ -1,0 +1,8 @@
+c:\source\codeworks\csharp-morning\bin\Debug\netcoreapp1.1\csharp-morning.deps.json
+c:\source\codeworks\csharp-morning\bin\Debug\netcoreapp1.1\csharp-morning.runtimeconfig.json
+c:\source\codeworks\csharp-morning\bin\Debug\netcoreapp1.1\csharp-morning.runtimeconfig.dev.json
+c:\source\codeworks\csharp-morning\bin\Debug\netcoreapp1.1\csharp-morning.dll
+c:\source\codeworks\csharp-morning\bin\Debug\netcoreapp1.1\csharp-morning.pdb
+c:\source\codeworks\csharp-morning\obj\Debug\netcoreapp1.1\csharp-morning.AssemblyInfo.cs
+c:\source\codeworks\csharp-morning\obj\Debug\netcoreapp1.1\csharp-morning.dll
+c:\source\codeworks\csharp-morning\obj\Debug\netcoreapp1.1\csharp-morning.pdb
