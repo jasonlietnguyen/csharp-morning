@@ -1,4 +1,4 @@
-namespace csharp_rps
+namespace morning
 {
   public class Date
   {

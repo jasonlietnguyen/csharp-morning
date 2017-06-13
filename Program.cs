@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_rps
+namespace morning
 {
   class Program
   {
@@ -49,25 +49,28 @@ namespace csharp_rps
       //   }
       // }
 
-      bool playing = true;
-      while (playing)
-      {
-        Console.WriteLine("Enter Month");
-        var month = Console.ReadLine();
-        int numMonth;
-        if (!int.TryParse(month, out numMonth))
-        {
-          Console.WriteLine("Give me a real month number");
-        }
+      // bool playing = true;
+      // while (playing)
+      // {
+      //   Console.WriteLine("Enter Month");
+      //   var month = Console.ReadLine();
+      //   int numMonth;
+      //   if (!int.TryParse(month, out numMonth))
+      //   {
+      //     Console.WriteLine("Give me a real month number");
+      //   }
 
-        Console.WriteLine("Enter Day");
-        var day = Console.ReadLine();
-        Console.WriteLine("Enter Day");
-        var year = Console.ReadLine();
+      //   Console.WriteLine("Enter Day");
+      //   var day = Console.ReadLine();
+      //   Console.WriteLine("Enter Day");
+      //   var year = Console.ReadLine();
 
-        var myDate = new Date(numMonth, day, year);
-        Console.WriteLine("{0}, {1}, {2}", myDate.Month, myDate.Day, myDate.Year);
-      }
+      //   var myDate = new Date(numMonth, day, year);
+      //   Console.WriteLine("{0}, {1}, {2}", myDate.Month, myDate.Day, myDate.Year);
+      // }
+      Coffee myCoffee = new Coffee("Krispy Cream", true, "light", 5, 68.34f);
+      Console.WriteLine(myCoffee.Brand);
+
     }
   }
 }
